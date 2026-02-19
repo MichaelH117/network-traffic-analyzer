@@ -146,10 +146,6 @@ network-traffic-analyzer/
 - **scikit-learn** - Machine learning
 - **Matplotlib/Seaborn** - Visualization
 
-## Author
-
-Michael Hanson - Computer Science Student @ NJIT
-Building towards a career in game development and security
 
 ## License
 
