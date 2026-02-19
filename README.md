@@ -9,35 +9,35 @@ This tool captures network packets, analyzes traffic patterns, and uses machine 
 ## Features (Planned - 3 Week Build)
 
 **Week 1: Core Packet Capture**
-- ✅ Real-time packet capture
-- ✅ Protocol analysis (TCP/UDP/ICMP)
+Real-time packet capture
+Protocol analysis (TCP/UDP/ICMP)
 - ✅ Traffic statistics and reporting
 - ✅ CSV export for further analysis
 
 **Week 2: Machine Learning**
-- ⏳ Feature engineering from packet data
-- ⏳ Anomaly detection using Isolation Forest
-- ⏳ Pattern recognition for common attacks
-- ⏳ Threat scoring system
+Feature engineering from packet data
+Anomaly detection using Isolation Forest
+Pattern recognition for common attacks
+Threat scoring system
 
 **Week 3: Integration & Polish**
-- ⏳ Integration with network scanner
-- ⏳ HTML report generation
-- ⏳ Visualization dashboard
-- ⏳ Documentation and demo
+Integration with network scanner
+HTML report generation
+Visualization dashboard
+Documentation and demo
 
 ## Installation
 
 ### 1. Prerequisites
 
 **Windows:**
-- Python 3.8 or higher
-- Npcap (download from https://npcap.com/#download)
-  - Install with "WinPcap API-compatible Mode" checked
+Python 3.8 or higher
+Npcap (download from https://npcap.com/#download)
+Install with "WinPcap API-compatible Mode" checked
 
 **Mac/Linux:**
-- Python 3.8 or higher
-- libpcap (usually pre-installed)
+Python 3.8 or higher
+libpcap (usually pre-installed)
 
 ### 2. Install Dependencies
 
@@ -126,7 +126,7 @@ network-traffic-analyzer/
 
 ## Next Steps
 
-1. ✅ Run `capture.py` and verify packet capture works
+1. Run `capture.py` and verify packet capture works
 2. Open the CSV file and examine the captured data
 3. Next: Build `analyzer.py` to compute traffic statistics
 4. Then: Add ML anomaly detection
