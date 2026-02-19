@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-02-19T17:54:43.450815",
+  "total_packets": 50,
+  "anomalies_detected": 8,
+  "anomaly_rate": 16.0,
+  "anomalies": [
+    {
+      "timestamp": "2026-02-19 17:17:18",
+      "src_ip": "10.196.93.197",
+      "dst_ip": "128.235.205.76",
+      "src_port": "54445",
+      "dst_port": "53",
+      "protocol": "UDP",
+      "length": 92,
+      "anomaly_score": -0.6088407852680077
+    },
+    {
+      "timestamp": "2026-02-19 17:17:18",
+      "src_ip": "10.196.93.197",
+      "dst_ip": "128.235.205.76",
+      "src_port": "50698",
+      "dst_port": "53",
+      "protocol": "UDP",
+      "length": 92,
+      "anomaly_score": -0.6328898232388322
+    },
+    {
+      "timestamp": "2026-02-19 17:17:18",
+      "src_ip": "128.235.205.76",
+      "dst_ip": "10.196.93.197",
+      "src_port": "53",
+      "dst_port": "50698",
+      "protocol": "UDP",
+      "length": 215,
+      "anomaly_score": -0.6083632799808452
+    },
+    {
+      "timestamp": "2026-02-19 17:17:18",
+      "src_ip": "128.235.205.76",
+      "dst_ip": "10.196.93.197",
+      "src_port": "53",
+      "dst_port": "54445",
+      "protocol": "UDP",
+      "length": 92,
+      "anomaly_score": -0.600434170579559
+    },
+    {
+      "timestamp": "2026-02-19 17:17:19",
+      "src_ip": "10.196.93.197",
+      "dst_ip": "128.235.205.76",
+      "src_port": "54383",
+      "dst_port": "53",
+      "protocol": "UDP",
+      "length": 92,
+      "anomaly_score": -0.6800323472527438
+    },
+    {
+      "timestamp": "2026-02-19 17:17:19",
+      "src_ip": "35.186.224.9",
+      "dst_ip": "10.196.93.197",
+      "src_port": "443",
+      "dst_port": "64190",
+      "protocol": "UDP",
+      "length": 710,
+      "anomaly_score": -0.6491476817871129
+    },
+    {
+      "timestamp": "2026-02-19 17:17:19",
+      "src_ip": "10.196.93.197",
+      "dst_ip": "35.186.224.9",
+      "src_port": "64190",
+      "dst_port": "443",
+      "protocol": "UDP",
+      "length": 78,
+      "anomaly_score": -0.6042203457326246
+    },
+    {
+      "timestamp": "2026-02-19 17:17:19",
+      "src_ip": "10.196.93.197",
+      "dst_ip": "162.159.141.124",
+      "src_port": "50489",
+      "dst_port": "443",
+      "protocol": "TCP",
+      "length": 606,
+      "anomaly_score": -0.6317597183871777
+    }
+  ]
+}

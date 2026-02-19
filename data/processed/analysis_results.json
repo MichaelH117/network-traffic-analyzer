@@ -1,0 +1,85 @@
+{
+  "basic_stats": {
+    "total_packets": 50,
+    "total_bytes": "21531",
+    "avg_packet_size": 430.62,
+    "max_packet_size": "1304",
+    "min_packet_size": "54",
+    "unique_src_ips": 6,
+    "unique_dst_ips": 6,
+    "duration_seconds": 1.0
+  },
+  "protocols": {
+    "TCP": 38,
+    "UDP": 12
+  },
+  "top_talkers": {
+    "senders": {
+      "10.196.93.197": {
+        "total_bytes": 7846,
+        "packet_count": 23
+      },
+      "13.89.179.9": {
+        "total_bytes": 5711,
+        "packet_count": 10
+      },
+      "162.159.141.124": {
+        "total_bytes": 6197,
+        "packet_count": 6
+      },
+      "20.189.173.12": {
+        "total_bytes": 409,
+        "packet_count": 5
+      },
+      "128.235.205.76": {
+        "total_bytes": 522,
+        "packet_count": 3
+      },
+      "35.186.224.9": {
+        "total_bytes": 846,
+        "packet_count": 3
+      }
+    },
+    "receivers": {
+      "10.196.93.197": {
+        "total_bytes": 13685,
+        "packet_count": 27
+      },
+      "13.89.179.9": {
+        "total_bytes": 3490,
+        "packet_count": 10
+      },
+      "20.189.173.12": {
+        "total_bytes": 3001,
+        "packet_count": 6
+      },
+      "128.235.205.76": {
+        "total_bytes": 276,
+        "packet_count": 3
+      },
+      "35.186.224.9": {
+        "total_bytes": 473,
+        "packet_count": 3
+      },
+      "162.159.141.124": {
+        "total_bytes": 606,
+        "packet_count": 1
+      }
+    }
+  },
+  "top_ports": {
+    "443": 20,
+    "56144": 10,
+    "50489": 6,
+    "59055": 5,
+    "53": 3,
+    "64190": 3,
+    "50698": 1,
+    "54445": 1,
+    "54383": 1
+  },
+  "port_scan_detected": false,
+  "alerts": [
+    "\u26a0\ufe0f  High connection rate to 1 destination(s)"
+  ]
+}
