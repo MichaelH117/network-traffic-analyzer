@@ -8,19 +8,19 @@ This tool captures network packets, analyzes traffic patterns, and uses machine 
 
 ## Features (Planned - 3 Week Build)
 
-**Week 1: Core Packet Capture**
+**Core Packet Capture**
 Real-time packet capture
 Protocol analysis (TCP/UDP/ICMP)
-- ✅ Traffic statistics and reporting
-- ✅ CSV export for further analysis
+Traffic statistics and reporting
+CSV export for further analysis
 
-**Week 2: Machine Learning**
+**Machine Learning**
 Feature engineering from packet data
 Anomaly detection using Isolation Forest
 Pattern recognition for common attacks
 Threat scoring system
 
-**Week 3: Integration & Polish**
+**Integration & Polish**
 Integration with network scanner
 HTML report generation
 Visualization dashboard
